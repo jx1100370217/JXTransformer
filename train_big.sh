@@ -1,0 +1,1 @@
+python nematus/train.py --source_dataset data/big_data/train.en --target_dataset data/big_data/train.zh --dictionaries data/big_data/vocab_en.json data/big_data/vocab_zh.json --model model/Model --summary_dir summary --valid_source_dataset data/big_data/val.en --valid_target_dataset data/big_data/val.zh --batch_size 16 --patience 100 --disp_freq 100 

@@ -1,0 +1,1 @@
+python nematus/train.py --source_dataset data/news/test.en --target_dataset data/news/test.zh --dictionaries data/news/vocab_en.json data/news/vocab_zh.json --valid_source_dataset data/news/dev.en --valid_target_dataset data/news/dev.zh --batch_size 160 --patience 1000 --disp_freq 100 --save_freq 2000 --model model/fine-tune/transformer --reload model/transformer-290000
